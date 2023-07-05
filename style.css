@@ -326,3 +326,9 @@ form .btn2{
     margin-top:-40px;
     display: block;
 }
+/* --------------------css for iphonese ------- */
+@media only screen and (max-width: 600px){
+    /* #header{
+       background-image: url(pfo-image/phonebackground.jpg); 
+    } */
+}
