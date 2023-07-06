@@ -327,8 +327,8 @@ form .btn2{
     display: block;
 }
 /* --------------------css for iphonese ------- */
-@media only screen and (max-width: 600px){
-    /* #header{
+/* @media only screen and (max-width: 600px){
+    #header{
        background-image: url(pfo-image/phonebackground.jpg); 
-    } */
-}
+    }
+} */

@@ -8,6 +8,7 @@
             <title>Hema Portfolio </title>
             <link rel="stylesheet" href="style.css">
             <script src="https://kit.fontawesome.com/b40f656aa8.js" crossorigin="anonymous"></script>
+            <link rel="shortcut icon" href="pfo-image/H-2.png" type="image/x-icon">
         </head>
         <body>
             <div id="header">
@@ -136,6 +137,7 @@
                         <div class="social-icons">
                             <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                             <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
                         </div>
                         <a href="pfo-image/Jayasri-Fresher-Resume.docx" download class="btn btn2">Download CV</a>
                     </div>
@@ -181,13 +183,15 @@
                 form.addEventListener('submit', e => {
                     e.preventDefault()
                     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                    .then(response => {
+                    .then(response => {    
                         msg.innerHTML = "Message sent successfully"
                         setTimeout(() => {
                             msg.innerHTML= ''
-                        }, 5000);
-                        form.reset()
+                        },3000);    
                     })
+                    setTimeout(()=>{
+                        form.reset()
+                    },500)
                     .catch(error => console.error('Error!', error.message))
                 })
 
