@@ -332,7 +332,7 @@ nav .fas{
 /* --------------------css for iphonese ------- */
 @media only screen and (max-width: 700px){
     #header{
-       background-image: url(pfo-image/image2.jpg) 
+       background-image: url(pfo-image/image.jpg) 
     }
     .header-text{
         margin-top: 100%;
